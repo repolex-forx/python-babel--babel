@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/python-babel/babel/commit/e2a17919f0eb988bfea2883b00793ca4d5d37c4f",
       "git:hexsha": "e2a17919f0eb988bfea2883b00793ca4d5d37c4f",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-12T23:02:51.057173+00:00"
     },
     {
       "@id": "https://repolex.ai/r/python-babel/babel/commit/2f8ed62038b42c8f228b7422ec18648bdc74d6c1",
