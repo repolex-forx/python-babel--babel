@@ -1,0 +1,38 @@
+[2026-11-22T01:09:47Z] === ENRICH ITERATION 1 START | repo=python-babel/babel sha=56c63caf ===
+[2026-11-22T01:09:47Z] [iter=1] PHASE START: enrich repo=python-babel/babel sha=56c63caf runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/56c63caf-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/56c63caf50b18b152541b5dcafd51f645d867074.nq.gz
+[2026-11-22T01:09:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T01:09:55Z] [iter=1] AST store loaded triples=979852 load_secs=8 mem_mb=865 MB
+[2026-11-22T01:09:55Z] [iter=1] Step 2: Finding LSP targets mem_mb=865 MB
+[2026-11-22T01:09:56Z] [iter=1] LSP targets found call_sites=6314 imports=444 extends=36 implements=0 secs=1
+[2026-11-22T01:09:57Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=865 MB
+[2026-11-22T01:10:03Z] [iter=1] Position index built positions=67627 nodes_with_types=88314 secs=6 mem_mb=865 MB
+[2026-11-22T01:10:03Z] [iter=1] Step 3: Starting LSP resolution mem_mb=865 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T01:10:03Z] [iter=1] Resolving target type target_type=call_site count=6314
+[2026-11-22T01:10:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=1 resolved=142 errors=0 current=tests/messages/test_pofile_write.py
+[2026-11-22T01:11:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=2 resolved=298 errors=0 current=tests/messages/test_checkers.py
+[2026-11-22T01:12:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=4 resolved=437 errors=0 current=tests/test_dates.py
+[2026-11-22T01:16:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=5 resolved=1011 errors=0 current=babel/units.py
+[2026-11-22T01:17:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=7 resolved=1306 errors=0 current=tests/messages/test_pofile_read.py
+[2026-11-22T01:18:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=9 resolved=1604 errors=0 current=babel/messages/frontend.py
+[2026-11-22T01:19:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.5 files_done=10 resolved=1893 errors=0 current=babel/messages/catalog.py
+[2026-11-22T01:20:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=12 resolved=2309 errors=0 current=babel/plural.py
+[2026-11-22T01:21:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=13 resolved=2468 errors=0 current=tests/test_util.py
+[2026-11-22T01:22:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=15 resolved=2967 errors=0 current=babel/messages/extract.py
+[2026-11-22T01:22:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.1 files_done=18 resolved=3313 errors=0 current=tests/test_support_translations.py
+[2026-11-22T01:23:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.7 files_done=20 resolved=3425 errors=0 current=tests/messages/frontend/test_init.py
+[2026-11-22T01:24:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=26 resolved=3607 errors=0 current=babel/support.py
+[2026-11-22T01:24:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=29 resolved=3832 errors=0 current=tests/messages/test_plurals.py
+[2026-11-22T01:25:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=31 resolved=4062 errors=0 current=babel/core.py
+[2026-11-22T01:27:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.6 files_done=34 resolved=4541 errors=0 current=tests/messages/frontend/test_compile.py
+[2026-11-22T01:28:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.6 files_done=40 resolved=4905 errors=0 current=tests/messages/test_pofile.py
+[2026-11-22T01:29:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=47 resolved=5124 errors=0 current=tests/messages/consts.py
+[2026-11-22T01:29:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=56 resolved=5285 errors=0 current=tests/test_localtime.py
+[2026-11-22T01:30:04Z] [iter=1] Target type resolved target_type=call_site resolved=5419 errors=0 secs=1200 mem_mb=865 MB
+[2026-11-22T01:30:04Z] [iter=1] Resolving target type target_type=import_statement count=444
+[2026-11-22T01:30:05Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=20.3 files_done=2 resolved=16 errors=0 current=scripts/download_import_cldr.py
+[2026-11-22T01:30:10Z] [iter=1] Target type resolved target_type=import_statement resolved=400 errors=0 secs=6 mem_mb=865 MB
+[2026-11-22T01:30:10Z] [iter=1] Resolving target type target_type=extends_clause count=36
+[2026-11-22T01:30:12Z] [iter=1] Target type resolved target_type=extends_clause resolved=36 errors=0 secs=2 mem_mb=865 MB
+[2026-11-22T01:41:44Z] [iter=1] Step 5: Writing final enrichment file triples=80588
+[2026-11-22T01:41:45Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/56c63caf50b18b152541b5dcafd51f645d867074.nq.gz size_kb=1713
+[2026-11-22T01:41:45Z] [iter=1] PHASE END: enrich elapsed_s=1918 elapsed_min=32.0 total_triples=80588
