@@ -3,6 +3,11 @@
   "repo": "babel",
   "versions": [
     {
+      "commit": "56c63caf50b18b152541b5dcafd51f645d867074",
+      "tag": "v2.18.0",
+      "parsed_at": "2026-11-22T01:45:26.805421+00:00"
+    },
+    {
       "commit": "e2a17919f0eb988bfea2883b00793ca4d5d37c4f",
       "tag": "",
       "parsed_at": "2026-10-12T23:02:51.057767+00:00"
